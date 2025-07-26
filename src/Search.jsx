@@ -2,8 +2,6 @@
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import { useState } from 'react';
-import { fakerTH, tr } from '@faker-js/faker';
-import { getOffsetLeft } from '@mui/material/Popover';
 import "./Search.css"
 
 export default function Search({updateData}) {
