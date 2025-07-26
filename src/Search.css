@@ -1,0 +1,36 @@
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+#city{
+    width: 13rem;
+    height: 1.7rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color : white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+   background-color: rgba(255, 255, 255, 0.5),
+}
+#Submit{
+    margin-left: 1.3rem;
+    height: 3rem;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: black;
+    font-weight: bold;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+
+}
+.search-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgba(255, 255, 255, 0.7)
+}
