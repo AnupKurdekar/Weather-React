@@ -1,11 +1,10 @@
 /* App.css */
-body, html, #root {
+body, html {
   height: 100%;
   margin: 0;
   padding: 0;
-  background: #020024 !important;
- background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%) !important;
-
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%) !important;
+  background-size: cover;
 }
 #root {
   max-width: 1280px;
