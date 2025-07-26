@@ -49,7 +49,7 @@ export default function Search({updateData}) {
     }
     return(
         <div className='search-box'>
-            <h1>Search Weather Information</h1>
+            <h2>Search Weather Information</h2>
             <br /> <br />
             <form action="" onSubmit={HandleSubmit}>
                  <TextField id="city" label="City" variant="outlined"  value={location} onChange={locationInput} color='white'/>
